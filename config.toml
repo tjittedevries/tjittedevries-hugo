@@ -2,3 +2,17 @@ baseURL = 'http://tjittedevries.com/'
 languageCode = 'nl-NL'
 title = 'Tjitte de Vries'
 theme = 'tdv'
+
+defaultContentLanguage = 'nl'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+
+[languages]
+  [languages.nl]
+    disabled = false
+    languageCode = 'nl-NL'
+    languageDirection = 'ltr'
+    languageName = 'Nederlands'
+    title = 'Nederlands'
+    weight = 1
+    timeZone = 'Europe/Amsterdam'

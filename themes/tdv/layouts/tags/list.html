@@ -4,7 +4,7 @@
   <ul class="list list-tags">
   {{ range .Pages }}
     <li>
-      <a href="{{ .Permalink }}">{{ .Title }}</a> -{{ .Date.Format "January 2, 2006" }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ time.Format "2 January 2006" .Date }}
     </li>
   {{ end }}
   </ul>
