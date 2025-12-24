@@ -1,0 +1,4 @@
+baseURL = 'http://tjittedevries.com/'
+languageCode = 'nl-NL'
+title = 'Tjitte de Vries'
+theme = 'tdv'

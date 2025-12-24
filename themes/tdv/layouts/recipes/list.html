@@ -1,0 +1,12 @@
+
+{{ define "main" }}
+  <h1>Recipes</h1>
+
+  <ul class="list list-recipes">
+  {{ range .Pages.ByTitle }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a> <span class="page-date">{{ .Date.Format "January 2, 2006" }}</span>
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}

@@ -1,0 +1,96 @@
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 1.125rem;
+  background-color: #eee;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: darkslateblue;
+
+  &:visited {
+    color: mediumslateblue
+  }
+
+  &:focus,
+  &:hover {
+    color: cadetblue;
+  }
+}
+
+main {
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 992px;
+}
+
+nav {
+  margin-block-end: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+
+  a {
+    color: darkslateblue;
+  }
+}
+
+
+h1 {
+  color: #333;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    a {
+      display: inline-block;
+      padding-block: 0.25rem;
+    }
+  }
+
+  &-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  &-recipes {
+    li {
+      a {
+        padding-block: 0.75rem;
+      }
+    }
+  }
+
+  &-tags {
+    gap: 1rem;
+
+    li {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.page-date {
+  color: #ccc;
+  margin-inline-start: 0.5rem;
+}
